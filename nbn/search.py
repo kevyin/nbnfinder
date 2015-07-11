@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import re
 
 def search_addr(addr):
-	driver = webdriver.Chrome()
+	driver = webdriver.Firefox()
 	driver.implicitly_wait(310)
 	driver.set_page_load_timeout(30)
 	base_url = "http://www.nbnco.com.au/connect-home-or-business/check-your-address.html"

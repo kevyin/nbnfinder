@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoAlertPresentException
 import re
 
 def search_new(url):
-	driver = webdriver.Chrome()
+	driver = webdriver.Firefox()
 	driver.implicitly_wait(310)
 	verificationErrors = []
 	accept_next_alert = True
