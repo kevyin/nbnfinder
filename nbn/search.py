@@ -13,8 +13,8 @@ import re
 
 def search_addr(addr):
 	driver = webdriver.Firefox()
-	driver.implicitly_wait(310)
-	driver.set_page_load_timeout(30)
+	driver.implicitly_wait(30)
+	# driver.set_page_load_timeout(30)
 	base_url = "http://www.nbnco.com.au/connect-home-or-business/check-your-address.html"
 	verificationErrors = []
 	accept_next_alert = True
