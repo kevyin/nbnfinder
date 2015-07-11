@@ -11,7 +11,7 @@ import re
 
 def search_new(url):
 	driver = webdriver.Firefox()
-	driver.implicitly_wait(310)
+	driver.implicitly_wait(30)
 	verificationErrors = []
 	accept_next_alert = True
 
