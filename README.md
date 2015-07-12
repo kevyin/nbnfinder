@@ -15,7 +15,7 @@ Features:
 * Won't work if the agent didn't type in the address properly
 * Unfortunately opens up Firefox/Chrome in the foreground not background (needs to be ported to ghostdriver)
 * Not a website
-* Not as good as http://www.finder.com.au/nbn
+* Not as easy as http://www.finder.com.au/nbn but you'll get more results
 
 ## How to use
 
