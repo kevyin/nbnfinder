@@ -2,12 +2,13 @@
 Helps you look for properties on the market with NBN
 
 ## What this does
-Given a domain.com.au search, it goes through all the Addresses and searches it through NBN's 
-"Check your address"
+From a http://domain.com.au search, it goes through all the addresses and searches them through NBN's 
+"Check your address" http://www.nbnco.com.au/connect-home-or-business/check-your-address.html
 
 Features:
-    * Caches results in Python's Config format
-    * Use Domain's sort by newest to get updates on your searches
+
+* Caches results in Python's Config format
+* Use Domain's sort by newest to get updates on your searches
 
 ## Missing features (Todo's)
 * Doesn't support off the plan buildings
